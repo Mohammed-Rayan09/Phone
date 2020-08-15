@@ -1,0 +1,45 @@
+body{
+	font-family: 'Simonetta', cursive;
+
+	margin-top;
+}
+.transparent{
+	background: rgba(0,0,0,0.7);
+}
+
+.max-viewport{
+	min-height: 100vh;
+}
+
+.viewport-50{
+	min-height: 50vh;
+}
+.download{
+	background:linear-gradient(to left,rgba(0,0,255,0.3),rgba(0,0,0,0.9)),url(image/mobile3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#team img{
+	margin-top: -100px;
+}
+#team .card{
+	background-color: whitesmoke;
+}
+
+#team .card:hover{
+	background-color: darkgray;
+	color:whitesmoke;
+}
+
+
+
+#lower-banner{
+	background:url(image/mobile4.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
